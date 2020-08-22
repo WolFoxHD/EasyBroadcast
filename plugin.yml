@@ -1,0 +1,17 @@
+name: EasyBroadcast
+version: 1.0.0
+api: [3.0.0, 4.0.0]
+main: Broadcast\Main
+author: PhillipLP255
+website: https://github.com/PhillipLP255
+commands:
+  broadcast:
+    description: Sende eine Nachricht an den Server.
+    permission: broadcast.cmd
+    aliases:
+      - bc
+
+permissions:
+  broadcast.cmd:
+    description: Erlaube den /broadcast Command.
+    default: op
