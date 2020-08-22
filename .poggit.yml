@@ -5,4 +5,5 @@ branches:
 projects:
   EasyBroadcast:
     path: "EasyBroadcast\"
+    icon: "broadcast.png"
 ...
